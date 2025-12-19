@@ -4,7 +4,7 @@
 @media (max-width: 1500px), (pointer: coarse) {.menu {z-index: 10; padding-top: 5vh; position: fixed; bottom: 0; left: 0; right: 0; padding-bottom: 2vh; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 /*POINTER COARSE*/
-@media (max-width: 1500px), (pointer: coarse) {.centre-menu {z-index: 10; padding-top: 5vh; position: fixed; bottom: 60%; left: 0; right: 0; padding-bottom: 2vh; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+@media (max-width: 1500px), (pointer: coarse) {.centre-menu {z-index: 10; padding-top: 5vh; position: fixed; bottom: 50%; left: 0; right: 0; padding-bottom: 2vh; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
 /*pointer coarse*/
@@ -12,29 +12,29 @@
 }
 
 /*pointer coarse*/
-@media (max-width: 1500px), (pointer: coarse) {.header {padding-left: 5vw; position: fixed; z-index: 10; top: 11vh; left: 0; right: 0; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+@media (max-width: 1500px), (pointer: coarse) {.header { position: fixed; z-index: 10; top: 8vh; left: 0; right: 0; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 /*pointer coarse*/
-@media (max-width: 1500px), (pointer: coarse) {.header-blur {padding-left: 5vw; position: fixed; z-index: 10; top: 11vh; left: 0; right: 0; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center; backdrop-filter: blur(10px);}
+@media (max-width: 1500px), (pointer: coarse) {.header-blur {padding-left: 5vw; position: fixed; z-index: 10; top: 8vh; left: 0; right: 0; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center; backdrop-filter: blur(10px);}
 }
 
 @media (max-width: 1500px), (pointer: coarse) {.contactinfo {position: absolute; top: 0; left: 0; transform: translate(10vw, 100%);}}
 /*pointer coarse*/
-@media (max-width: 420px), (pointer: coarse) {.menu-items {width: 12vmax;}}
+@media (max-width: 420px), (pointer: coarse) {.menu-items {width: 9vmax;}}
 
-@media (max-width: 420px), (pointer: coarse) {.centre-menu-items {width: 25vmax;}}
+@media (max-width: 420px), (pointer: coarse) {.centre-menu-items {width: 17vmax;}}
 /*pointer coarse*/
-@media (max-width: 420px), (pointer: coarse) {.mountain {width: 20vmax; position: absolute; transform: translate(-50%, -50%);}}
+@media (max-width: 420px), (pointer: coarse) {.mountain {width: 15vmax; position: absolute; transform: translate(-50%, -50%);}}
 
-@media (max-width: 420px), (pointer: coarse) {.logo {width: 30vmax; position: absolute; transform: translate(-50%, -50%);}}
+@media (max-width: 420px), (pointer: coarse) {.logo {width: 20vmax; position: absolute; transform: translate(-50%, -50%);}}
 
-@media (max-width: 1500px), (pointer: coarse) {.block {text-justify: center; padding-top: 25vh; padding-bottom: 20vh;}}
+@media (max-width: 1500px), (pointer: coarse) {.block {text-justify: center; padding-top: 10vh; padding-bottom: 10vh;}}
             
-@media (max-width: 420px), (pointer: coarse) {h1 {font-size: 12vmax}}
+@media (max-width: 420px), (pointer: coarse) {h1 {font-size: 12vmin}}
 
 @media (max-width: 1500px), (pointer: coarse) {p {padding-left: 2%;}}
 
-@media (max-width: 420px), (pointer: coarse) {p {font-size: 7vmax}}
+@media (max-width: 420px), (pointer: coarse) {p {font-size: 7vmin}}
 
 @media (max-width: 420px), (pointer: coarse) {.link-pic {position: absolute; top: 20%; left: 50%; transform: translate(-50%, -50%); max-width: 90vmax; opacity: 0}
             }
