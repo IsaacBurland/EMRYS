@@ -22,7 +22,7 @@
 /*pointer coarse*/
 @media (max-width: 420px), (pointer: coarse) {.menu-items {width: 6vmax; filter: sepia(100%) saturate(100%);}}
 
-@media (max-width: 420px), (pointer: coarse) {.double-bass {width: 14vmax; filter: sepia(100%) saturate(100%); transform: rotate(20deg);}}
+@media (max-width: 420px), (pointer: coarse) {.double-bass {width: 11vmax; filter: sepia(100%) saturate(100%); transform: rotate(20deg);}}
 
 @media (max-width: 420px), (pointer: coarse) {.about {width: 17vmax; filter: sepia(100%) saturate(100%);}}
 /*pointer coarse*/
