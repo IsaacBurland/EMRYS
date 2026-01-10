@@ -20,21 +20,23 @@
 
 @media (max-width: 1500px), (pointer: coarse) {.contactinfo {position: absolute; top: 0; left: 0; transform: translate(10vw, 100%);}}
 /*pointer coarse*/
-@media (max-width: 420px), (pointer: coarse) {.menu-items {width: 9vmax;}}
+@media (max-width: 420px), (pointer: coarse) {.menu-items {width: 9vmax; filter: sepia(100%) saturate(100%);}}
 
-@media (max-width: 420px), (pointer: coarse) {.centre-menu-items {width: 17vmax;}}
+@media (max-width: 420px), (pointer: coarse) {.double-bass {width: 17vmax; filter: sepia(100%) saturate(100%);}}
+
+@media (max-width: 420px), (pointer: coarse) {.about {width: 17vmax; filter: sepia(100%) saturate(100%);}}
 /*pointer coarse*/
-@media (max-width: 420px), (pointer: coarse) {.mountain {width: 15vmax; position: absolute; transform: translate(-50%, -50%);}}
+@media (max-width: 420px), (pointer: coarse) {.mountain {width: 15vmax; filter: sepia(100%) saturate(100%); position: absolute; transform: translate(-50%, -50%);}}
 
-@media (max-width: 420px), (pointer: coarse) {.logo {width: 20vmax; position: absolute; transform: translate(-40%, -50%);}}
+@media (max-width: 420px), (pointer: coarse) {.logo {width: 20vmax; filter: sepia(100%) saturate(100%); position: absolute; transform: translate(-40%, -50%);}}
 
-@media (max-width: 1500px), (pointer: coarse) {.block {text-justify: center; padding-top: 10vh; padding-bottom: 10vh;}}
+@media (max-width: 1500px), (pointer: coarse) {.block {text-justify: center; padding-top: 12vh; padding-bottom: 10vh;}}
             
 @media (max-width: 420px), (pointer: coarse) {h1 {font-size: 12vmin}}
 
 @media (max-width: 1500px), (pointer: coarse) {p {padding-left: 2%;}}
 
-@media (max-width: 420px), (pointer: coarse) {p {font-size: 7vmin}}
+@media (max-width: 420px), (pointer: coarse) {p {font-size: 6vmin}}
 
 @media (max-width: 420px), (pointer: coarse) {.link-pic {position: absolute; top: 20%; left: 50%; transform: translate(-50%, -50%); max-width: 90vmax; opacity: 0}
             }
@@ -52,16 +54,16 @@
      
 /*@media (min-width: 1500px) {.emrys {padding-left: 20%;}}*/
 
-@media (min-width: 1500px) {.menu {z-index: 10; position: fixed; bottom: 0; left: 0; right: 0; padding-bottom: 2vh; padding-left: 10vw; padding-right: 10vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+@media (min-width: 1500px) {.menu {z-index: 10; position: fixed; bottom: 0; left: 0; right: 0; padding-bottom: 2vh; padding-left: 13vw; padding-right: 13vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
-@media (min-width: 1500px) {.centre-menu {z-index: 10; position: fixed; bottom: 40vh; left: 0; right: 0; padding-bottom: 2vh; padding-left: 10vw; padding-right: 10vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+@media (min-width: 1500px) {.centre-menu {z-index: 10; position: fixed; top: 42vh; bottom: 40vh; left: 0; right: 0; padding-bottom: 2vh; padding-left: 13vw; padding-right: 13vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
 @media (min-width: 1500px) {.menu-blur {z-index: 10; position: fixed; bottom: 0; left: 0; right: 0; padding-bottom: 2vh; padding-left: 10vw; padding-right: 10vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
-@media (min-width: 1500px) {.header {position: fixed; z-index: 10; top: 10vh; left: 0; right: 0; padding-left: 10vw; padding-right: 10vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+@media (min-width: 1500px) {.header {position: fixed; z-index: 10; top: 11vh; left: 0; right: 0; padding-left: 14vw; padding-right: 13vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
 @media (min-width: 1500px) {.header-blur {position: fixed; z-index: 10; top: 10vh; left: 0; right: 0; padding-left: 10vw; padding-right: 10vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center; backdrop-filter: blur(10px)}
@@ -69,14 +71,16 @@
 
 @media (min-width: 1500px) {.contactinfo {position: absolute; transform: translate(0%, 100%); margin-right: 17vw; margin-left: 17vw; }}
 
-@media (min-width: 420px) {.menu-items {width: 6vmin;}}
+@media (min-width: 420px) {.menu-items {width: 7vmin; filter: sepia(100%) saturate(100%);}}
 
-@media (min-width: 420px) {.centre-menu-items {width: 15vmin;}}
+@media (min-width: 420px) {.double-bass {width: 13vmin; filter: sepia(100%) saturate(100%);}}
 
-@media (min-width: 420px) {.mountain {width: 12vmin; position: absolute; transform: translate(-50%, -50%);}}
+@media (min-width: 420px) {.about {width: 20vmin; filter: sepia(100%) saturate(100%);}}
+
+@media (min-width: 420px) {.mountain {width: 24vmin; filter: sepia(100%) saturate(100%); position: absolute; transform: translate(-50%, -50%);}}
 
 
-@media (min-width: 420px) {.logo {width: 30vmin; position: absolute; transform: translate(-50%, -50%);}}
+@media (min-width: 420px) {.logo {width: 34vmin; filter: sepia(100%) saturate(100%); position: absolute; transform: translate(-50%, -50%);}}
 
 @media (min-width: 420px) {h1 {font-size: 7vmin;}}
 
@@ -87,7 +91,7 @@
 @media (min-width: 420px) {.link-pic {position: absolute; top: 20%; left: 50%; transform: translate(-50%, -50%); max-height: 70vmin; opacity: 1}
             }
             
- @media (min-width: 1500px) {.block {position: absolute; text-justify: center; margin-right: 17vw; margin-left: 17vw; margin-top: 20vh;}}
+ @media (min-width: 1500px) {.block {position: absolute; text-justify: center; margin-right: 25vw; margin-left: 19vw; margin-top: 20vh;}}
 
 @media (min-width: 500px) {.center {
     position: relative;
@@ -95,19 +99,19 @@
     left: 50%;
     transform: translate(-50%, 25%); display: flex; justify-content: center; align-items: center;}}
 
-h1 {font-family: Arial, Helvetica, sans-serif; color: lch(100% 0.01 296.81);}
+h1 {font-family: Arial, Helvetica, sans-serif; color: rgb(255, 255, 255); filter: sepia(100%) saturate(100%);}
             
 a {text-decoration: none;}
 
 .link-pic {position: absolute; transform: translate(-50%, 0); max-width: 90vmax; opacity: 0; z-index: 0;}
             
-p {font-family: Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); z-index: 0;}
+p {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: rgb(0, 0, 0); z-index: 0;}
             
 
 
 
-.mailing-list {color: lch(100% 0.01 296.81); background-color: black; }
+.mailing-list {color: rgb(255, 255, 255); filter: sepia(100%) saturate(100%); background-color: black; }
             
-.hover-effect:hover {cursor: pointer; color: black; background-color: lch(100% 0.01 296.81);}
+.hover-effect:hover {cursor: pointer; color: black; background-color: rgb(255, 255, 255); filter: sepia(100%) saturate(100%);}
 
             
