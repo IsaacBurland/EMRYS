@@ -4,7 +4,7 @@
 @media (max-width: 1500px), (pointer: coarse) {.menu {z-index: 10; padding-top: 5vh; position: fixed; bottom: 0; left: 0; right: 0; padding-bottom: 2vh; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 /*POINTER COARSE*/
-@media (max-width: 1500px), (pointer: coarse) {.centre-menu {z-index: 10; padding-top: 5vh; position: fixed; bottom: 60%; left: 0; right: 0; padding-bottom: 2vh; display: grid; padding-left: 5vw; padding-right: 5vw; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+@media (max-width: 1500px), (pointer: coarse) {.centre-menu {z-index: 10; padding-top: 5vh; position: fixed; bottom: 57%; left: 0; right: 0; padding-bottom: 2vh; display: grid; padding-left: 5vw; padding-right: 5vw; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
 /*pointer coarse*/
