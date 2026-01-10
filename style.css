@@ -4,7 +4,7 @@
 @media (max-width: 1500px), (pointer: coarse) {.menu {z-index: 10; padding-top: 5vh; position: fixed; bottom: 0; left: 0; right: 0; padding-bottom: 2vh; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 /*POINTER COARSE*/
-@media (max-width: 1500px), (pointer: coarse) {.centre-menu {z-index: 10; padding-top: 5vh; position: fixed; bottom: 50%; left: 0; right: 0; padding-bottom: 2vh; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+@media (max-width: 1500px), (pointer: coarse) {.centre-menu {z-index: 10; padding-top: 5vh; position: fixed; bottom: 60%; left: 0; right: 0; padding-bottom: 2vh; display: grid; padding-left: 5vw; padding-right: 5vw; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
 /*pointer coarse*/
@@ -12,7 +12,7 @@
 }
 
 /*pointer coarse*/
-@media (max-width: 1500px), (pointer: coarse) {.header { position: fixed; z-index: 10; top: 8vh; left: 0; right: 0; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+@media (max-width: 1500px), (pointer: coarse) {.header { position: fixed; z-index: 10; top: 8vh; left: 0; right: 0; display: grid; padding-left: 5vw; padding-right: 5vw; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 /*pointer coarse*/
 @media (max-width: 1500px), (pointer: coarse) {.header-blur {position: fixed; z-index: 10; top: 8vh; left: 0; right: 0; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center; backdrop-filter: blur(10px);}
@@ -20,15 +20,15 @@
 
 @media (max-width: 1500px), (pointer: coarse) {.contactinfo {position: absolute; top: 0; left: 0; transform: translate(10vw, 100%);}}
 /*pointer coarse*/
-@media (max-width: 420px), (pointer: coarse) {.menu-items {width: 9vmax; filter: sepia(100%) saturate(100%);}}
+@media (max-width: 420px), (pointer: coarse) {.menu-items {width: 6vmax; filter: sepia(100%) saturate(100%);}}
 
-@media (max-width: 420px), (pointer: coarse) {.double-bass {width: 17vmax; filter: sepia(100%) saturate(100%);}}
+@media (max-width: 420px), (pointer: coarse) {.double-bass {width: 14vmax; filter: sepia(100%) saturate(100%); transform: rotate(20deg);}}
 
 @media (max-width: 420px), (pointer: coarse) {.about {width: 17vmax; filter: sepia(100%) saturate(100%);}}
 /*pointer coarse*/
-@media (max-width: 420px), (pointer: coarse) {.mountain {width: 15vmax; filter: sepia(100%) saturate(100%); position: absolute; transform: translate(-50%, -50%);}}
+@media (max-width: 420px), (pointer: coarse) {.mountain {width: 18vmax; filter: sepia(100%) saturate(100%); position: absolute; transform: translate(-50%, -50%);}}
 
-@media (max-width: 420px), (pointer: coarse) {.logo {width: 20vmax; filter: sepia(100%) saturate(100%); position: absolute; transform: translate(-40%, -50%);}}
+@media (max-width: 420px), (pointer: coarse) {.logo {width: 24vmax; filter: sepia(100%) saturate(100%); position: absolute; transform: translate(-40%, -50%);}}
 
 @media (max-width: 1500px), (pointer: coarse) {.block {text-justify: center; padding-top: 12vh; padding-bottom: 10vh;}}
             
