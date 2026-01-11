@@ -12,10 +12,10 @@
 }
 
 /*pointer coarse*/
-@media (max-width: 1500px), (pointer: coarse) {.header { position: fixed; z-index: 10; top: 8vh; left: 0; right: 0; display: grid; padding-left: 5vw; padding-right: 5vw; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+@media (max-width: 1500px), (pointer: coarse) {.header { position: fixed; z-index: 10; top: 2vh; left: 0; right: 0; display: grid; padding-left: 5vw; padding-right: 5vw; grid-template-columns: 1fr 1fr 1fr; height: 13vh; align-items: center; justify-items: center;}
 }
 /*pointer coarse*/
-@media (max-width: 1500px), (pointer: coarse) {.header-blur {position: fixed; z-index: 10; top: 8vh; left: 0; right: 0; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center; backdrop-filter: blur(10px);}
+@media (max-width: 1500px), (pointer: coarse) {.header-blur {position: fixed; z-index: 10; top: 2vh; left: 0; right: 0; display: grid; padding-left: 5vw; padding-right: 5vw; grid-template-columns: 1fr 1fr 1fr; height: 13vh; align-items: center; justify-items: center; mask: linear-gradient(transparent, black, black, black, black, transparent); backdrop-filter: blur(10px);}
 }
 
 @media (max-width: 1500px), (pointer: coarse) {.contactinfo {position: absolute; top: 0; left: 0; transform: translate(10vw, 100%);}}
@@ -66,7 +66,7 @@
 @media (min-width: 1500px) {.header {position: fixed; z-index: 10; top: 11vh; left: 0; right: 0; padding-left: 14vw; padding-right: 13vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
-@media (min-width: 1500px) {.header-blur {position: fixed; z-index: 10; top: 10vh; left: 0; right: 0; padding-left: 10vw; padding-right: 10vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center; backdrop-filter: blur(10px)}
+@media (min-width: 1500px) {.header-blur {position: fixed; z-index: 10; top: 11vh; left: 0; right: 0; padding-left: 14vw; padding-right: 13vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
 @media (min-width: 1500px) {.contactinfo {position: absolute; transform: translate(0%, 100%); margin-right: 17vw; margin-left: 17vw; }}
