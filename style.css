@@ -12,10 +12,10 @@
 }
 
 /*pointer coarse*/
-@media (max-width: 1500px), (pointer: coarse) {.header { position: fixed; z-index: 10; top: 2vh; left: 0; right: 0; display: grid; padding-left: 5vw; padding-right: 5vw; grid-template-columns: 1fr 1fr 1fr; height: 13vh; align-items: center; justify-items: center;}
+@media (max-width: 1500px), (pointer: coarse) {.header { position: fixed; z-index: 10; top: 0; left: 0; right: 0; display: grid; padding-left: 5vw; padding-right: 5vw; grid-template-columns: 1fr 1fr 1fr; height: 17vh; align-items: center; justify-items: center;}
 }
 /*pointer coarse*/
-@media (max-width: 1500px), (pointer: coarse) {.header-blur {position: fixed; z-index: 10; top: 2vh; left: 0; right: 0; display: grid; padding-left: 5vw; padding-right: 5vw; grid-template-columns: 1fr 1fr 1fr; height: 13vh; align-items: center; justify-items: center; mask: linear-gradient(transparent, black, black, black, black, transparent); backdrop-filter: blur(10px);}
+@media (max-width: 1500px), (pointer: coarse) {.header-blur {position: fixed; z-index: 10; top: 0; left: 0; right: 0; display: grid; padding-left: 5vw; padding-right: 5vw; grid-template-columns: 1fr 1fr 1fr; height: 17vh; align-items: center; justify-items: center; mask: linear-gradient( black, black, black, black, transparent); backdrop-filter: blur(7px);}
 }
 
 @media (max-width: 1500px), (pointer: coarse) {.contactinfo {position: absolute; top: 0; left: 0; transform: translate(10vw, 100%);}}
@@ -30,7 +30,7 @@
 
 @media (max-width: 420px), (pointer: coarse) {.logo {width: 24vmax; filter: sepia(100%) saturate(100%); position: absolute; transform: translate(-40%, -50%);}}
 
-@media (max-width: 1500px), (pointer: coarse) {.block {text-justify: center; padding-top: 12vh; padding-bottom: 10vh;}}
+@media (max-width: 1500px), (pointer: coarse) {.block {text-justify: center; padding-top: 14vh; padding-bottom: 10vh;}}
             
 @media (max-width: 420px), (pointer: coarse) {h1 {font-size: 12vmin}}
 
@@ -43,9 +43,7 @@
             
 @media (max-width: 500px), (pointer: coarse) {.center {
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 50vh); display: flex; justify-content: center; align-items: center;}}
+    padding-top: 20vh; display: flex; justify-content: center; align-items: center;}}
 
            
 
@@ -95,9 +93,7 @@
 
 @media (min-width: 500px) {.center {
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 25%); display: flex; justify-content: center; align-items: center;}}
+    padding-top: 20vh; display: flex; justify-content: center; align-items: center;}}
 
 h1 {font-family: Arial, Helvetica, sans-serif; color: rgb(255, 255, 255); filter: sepia(100%) saturate(100%);}
             
@@ -107,7 +103,7 @@ a {text-decoration: none;}
             
 p {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: rgb(0, 0, 0); z-index: 0;}
             
-
+iframe {width: 80vmin; height: 45vmin}
 
 
 .mailing-list {color: rgb(255, 255, 255); filter: sepia(100%) saturate(100%); background-color: black; }
