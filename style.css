@@ -60,15 +60,20 @@
 @media only screen and (min-width: 900px) and (max-width: 1500px) {.menu {z-index: 10; position: fixed; bottom: 0; left: 0; right: 0; padding-bottom: 2vh; padding-left: 5vw; padding-right: 5vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1500px) {.centre-menu {z-index: 10; position: fixed; top: 42vh; bottom: 40vh; left: 0; right: 0; padding-bottom: 2vh; padding-left: 5vw; padding-right: 5vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+@media only screen and (min-width: 900px) and (max-width: 1500px) and (pointer: coarse) {.centre-menu {z-index: 10; padding-top: 5vh; position: fixed; bottom: 57%; left: 0; right: 0; padding-bottom: 2vh; display: grid; padding-left: 5vw; padding-right: 5vw; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1500px) and (pointer: fine) {.centre-menu {z-index: 10; position: fixed; top: 42vh; bottom: 40vh; left: 0; right: 0; padding-bottom: 2vh; padding-left: 5vw; padding-right: 5vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+}
+/*pointer coarse*/
+@media only screen and (min-width: 900px) and (max-width: 1500px) and (pointer: coarse) {.header {position: fixed; z-index: 10; top: 0; left: 0; right: 0; padding-left: 5vw; padding-right: 5vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1500px) and (pointer: fine) {.header {position: fixed; z-index: 10; top: 11vh; left: 0; right: 0; padding-left: 5vw; padding-right: 5vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
 /*pointer coarse*/
-@media only screen and (min-width: 900px) and (max-width: 1500px) {.header {position: fixed; z-index: 10; top: 11vh; left: 0; right: 0; padding-left: 5vw; padding-right: 5vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
-}
-
-/*pointer coarse*/
-@media only screen and (min-width: 900px) and (max-width: 1500px) {.header-blur {position: fixed; z-index: 10; top: 11vh; left: 0; right: 0; padding-left: 5vw; padding-right: 5vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+@media only screen and (min-width: 900px) and (max-width: 1500px) {.header-blur {position: fixed; z-index: 10; top: 0; left: 0; right: 0; padding-left: 5vw; padding-right: 5vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
 
