@@ -23,9 +23,11 @@ each concert will be curated to form a debut album.">
 
         <style>
 
-            @media (max-width: 1200px), (pointer: coarse) {body {background-image: url(NOTEBOOK.jpeg); background-position: center; background-size: cover; background-repeat: no-repeat; background-attachment: fixed;}}
+            @media only screen and (max-width: 500px), (pointer: coarse) {body {background-image: url(NOTEBOOK.jpeg); background-position: center top; background-size: 310%; background-repeat: no-repeat; background-attachment: scroll; overflow: hidden;}}
 
-            @media (min-width: 1200px) {body {background-image: url(NOTEBOOK.jpeg); background-position: center; background-size: 70%; background-repeat: no-repeat; background-attachment: fixed;}}
+            @media only screen and (min-width: 500px) and (max-width: 1200px) {body {background-image: url(NOTEBOOK.jpeg); background-position: center top; background-size: 210%; background-repeat: no-repeat; background-attachment: scroll; overflow: hidden;}}
+
+            @media only screen and (min-width: 1200px) {body {background-image: url(NOTEBOOK.jpeg); background-position: center; background-size: contain; background-repeat: no-repeat; background-attachment: fixed;}}
 
             
             
