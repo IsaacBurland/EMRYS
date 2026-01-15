@@ -42,7 +42,7 @@
             
 @media only screen and (max-width: 500px), (pointer: coarse) {.center {
     position: relative;
-    padding-top: 20vh; display: flex; justify-content: center; align-items: center;}}
+    padding-top: 5vh; display: flex; justify-content: center; align-items: center;}}
 
            
 
@@ -131,7 +131,7 @@
 
 @media only screen and (min-width: 500px) {.center {
     position: relative;
-    padding-top: 20vh; display: flex; justify-content: center; align-items: center;}}
+    padding-top: 5vh; display: flex; justify-content: center; align-items: center;}}
 
 h1 {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: rgb(0, 0, 0); z-index: 0;}
             
