@@ -5,7 +5,7 @@
 @media only screen and (max-width: 900px), (pointer: coarse) {.menu {z-index: 10; padding-top: 5vh; position: fixed; padding-left: 5vw; padding-right: 5vw; bottom: 0; left: 0; right: 0; padding-bottom: 2vh; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 /*POINTER COARSE*/
-@media only screen and (max-width: 900px), (pointer: coarse) {.centre-menu {z-index: 10; padding-top: 5vh; position: fixed; bottom: 57%; left: 0; right: 0; padding-bottom: 2vh; display: grid; padding-left: 5vw; padding-right: 5vw; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+@media only screen and (max-width: 900px), (pointer: coarse) {.centre-menu {z-index: 10; padding-top: 5vh; position: fixed; bottom: 55%; left: 0; right: 0; padding-bottom: 2vh; display: grid; padding-left: 5vw; padding-right: 5vw; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
 /*pointer coarse*/
@@ -31,11 +31,11 @@
 
 @media only screen and (max-width: 420px), (pointer: coarse) {.logo {width: 24vmax; filter: sepia(100%) saturate(100%); position: absolute; transform: translate(-40%, -50%);}}
 
-@media only screen and (max-width: 600px), (pointer: coarse) {.block {text-justify: center; padding-top: 14vh; padding-bottom: 10vh; padding-right: 2%}}
+@media only screen and (max-width: 600px), (pointer: coarse) {.block {text-justify: center; padding-top: 14vh; padding-bottom: 10vh; padding-right: 5%;}}
             
-@media only screen and (max-width: 420px), (pointer: coarse) {h1 {font-size: 10vmin}}
+@media only screen and (max-width: 420px), (pointer: coarse) {h1 {font-size: 8vmin}}
 
-@media only screen and (max-width: 420px), (pointer: coarse) {p {font-size: 6vmin;}}
+@media only screen and (max-width: 420px), (pointer: coarse) {p {font-size: 4vmin;}}
 
 @media only screen and (max-width: 420px), (pointer: coarse) {.link-pic {position: absolute; top: 20%; left: 50%; transform: translate(-50%, -50%); max-width: 90vmax; opacity: 0}
             }
@@ -71,10 +71,7 @@
 }
 
 /*pointer coarse*/
-@media only screen and (min-width: 900px) and (max-width: 1500px) and (pointer: coarse) {.header-blur {position: fixed; z-index: 10; top: 0; left: 0; right: 0; padding-left: 5vw; height: 23vh; padding-right: 5vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;  mask: linear-gradient( black, black, black, black, transparent); backdrop-filter: blur(7px); height: 17vh;}
-}
-
-@media only screen and (min-width: 900px) and (max-width: 1500px) and (pointer: fine) {.header-blur {position: fixed; z-index: 10; top: 0; left: 0; right: 0; padding-left: 5vw; height: 23vh; padding-right: 5vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;  mask: linear-gradient( black, black, black, black, transparent); backdrop-filter: blur(7px); height: 17vh;}
+@media only screen and (min-width: 900px) and (max-width: 1500px) {.header-blur {position: fixed; z-index: 10; top: 0; left: 0; right: 0; padding-left: 5vw; height: 23vh; padding-right: 5vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;  mask: linear-gradient( black, black, black, black, transparent); backdrop-filter: blur(7px); height: 17vh;}
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1500px) {.block {text-justify: center; padding-top: 15vh; padding-left: 11vw; padding-right: 20vw; }}
@@ -102,7 +99,7 @@
 @media only screen and (min-width: 1500px) {.header {position: fixed; z-index: 10; height: 23vh; top: 0; left: 0; right: 0; padding-left: 14vw; padding-right: 13vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
-@media only screen and (min-width: 1500px) {.header-blur {position: fixed; z-index: 10; top: 0; left: 0; right: 0; padding-left: 14vw; padding-right: 13vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;  mask: linear-gradient( black, black, black, black, transparent); backdrop-filter: blur(7px); height: 23vh;}
+@media only screen and (min-width: 1500px) {.header-blur {position: fixed; z-index: 10; top: 0; left: 0; right: 0; padding-left: 14vw; padding-right: 13vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center; mask: linear-gradient(black, black, black, black, transparent); backdrop-filter: blur(7px); height: 23vh;}
 }
 
 @media only screen and (min-width: 1500px) {.contactinfo {position: absolute; transform: translate(0%, 100%); margin-right: 17vw; margin-left: 17vw; }}
@@ -133,13 +130,13 @@
     position: relative;
     padding-top: 5vh; display: flex; justify-content: center; align-items: center;}}
 
-h1 {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: rgb(0, 0, 0); z-index: 0;}
+h1 {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: rgb(0, 0, 0); z-index: 0; text-align: center;}
             
 a {text-decoration: none;}
 
 .link-pic {position: absolute; transform: translate(-50%, 0); max-width: 90vmax; opacity: 0; z-index: 0;}
             
-p {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: rgb(0, 0, 0); z-index: 0;}
+p {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: rgb(0, 0, 0); z-index: 0; text-align: center;}
             
 iframe {width: 80vmin; height: 45vmin}
 
