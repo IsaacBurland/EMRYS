@@ -16,7 +16,7 @@
 @media only screen and (max-width: 900px), (pointer: coarse) {.header { position: fixed; z-index: 10; top: 0; left: 0; right: 0; display: grid; padding-left: 5vw; padding-right: 5vw; grid-template-columns: 1fr 1fr 1fr; height: 17vh; align-items: center; justify-items: center;}
 }
 /*pointer coarse*/
-@media only screen and (max-width: 900px), (pointer: coarse) {.header-blur {position: fixed; z-index: 10; top: 0; left: 0; right: 0; display: grid; padding-left: 5vw; padding-right: 5vw; grid-template-columns: 1fr 1fr 1fr; height: 17vh; align-items: center; justify-items: center; mask: linear-gradient( black, black, black, black, transparent); -webkit-backdrop-filter: blur(7px); backdrop-filter: blur(7px); transform: translate3d(0,0,0);}
+@media only screen and (max-width: 900px), (pointer: coarse) {.header-blur {position: fixed; z-index: 10; top: 0; left: 0; right: 0; display: grid; padding-left: 5vw; padding-right: 5vw; grid-template-columns: 2fr 1fr 1fr 1fr; height: 17vh; align-items: center; justify-items: center; mask: linear-gradient( black, black, black, black, transparent); -webkit-backdrop-filter: blur(7px); backdrop-filter: blur(7px); transform: translate3d(0,0,0);}
 }
 
 @media only screen and (max-width: 1500px), (pointer: coarse) {.contactinfo {position: absolute; top: 0; left: 0; transform: translate(10vw, 100%);}}
@@ -25,11 +25,19 @@
 
 @media only screen and (max-width: 420px), (pointer: coarse) {.double-bass {width: 11vmax; filter: sepia(100%) saturate(100%); transform: rotate(20deg);}}
 
+@media only screen and (max-width: 420px), (pointer: coarse) {.double-bass-small {width: 7vmax; filter: sepia(100%) saturate(100%); transform: rotate(20deg);}}
+
 @media only screen and (max-width: 420px), (pointer: coarse) {.about {width: 17vmax; filter: sepia(100%) saturate(100%);}}
-/*pointer coarse*/
+
+@media only screen and (max-width: 420px), (pointer: coarse) {.about-small {width: 10vmax; filter: sepia(100%) saturate(100%);}}
+
 @media only screen and (max-width: 420px), (pointer: coarse) {.mountain {width: 18vmax; filter: sepia(100%) saturate(100%); position: absolute; transform: translate(-50%, -50%);}}
 
+@media only screen and (max-width: 420px), (pointer: coarse) {.mountain-small {width: 10vmax; filter: sepia(100%) saturate(100%); position: absolute; transform: translate(-50%, -50%);}}
+
 @media only screen and (max-width: 420px), (pointer: coarse) {.logo {width: 24vmax; filter: sepia(100%) saturate(100%); position: absolute; transform: translate(-40%, -50%);}}
+
+@media only screen and (max-width: 420px), (pointer: coarse) {.logo-small {width: 15vmax; filter: sepia(100%) saturate(100%); position: absolute; transform: translate(-70%, -50%);}}
 
 @media only screen and (max-width: 600px), (pointer: coarse) {.block {text-justify: center; padding-top: 14vh; padding-bottom: 10vh; padding-right: 5%;}}
             
@@ -57,7 +65,10 @@
            
 
 
-
+    @media only screen and (min-width: 600px) and (max-width: 900px) and (pointer: fine) {.block {padding-top: 20vh; width: 90vh; margin: auto;}}
+   
+    @media only screen and (min-width: 600px) and (max-width: 900px) and (pointer: fine) {.header-blur {position: fixed; z-index: 10; top: 0; left: 0; right: 0; margin: auto; height: 23vh; display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; align-items: center; justify-items: center;  mask: linear-gradient( black, black, black, black, transparent); -webkit-backdrop-filter: blur(7px); backdrop-filter: blur(7px); transform: translate3d(0,0,0); width: 100vmin;}
+}
 
 
 
@@ -65,28 +76,33 @@
 
             /*keep below as breakpoint margins, set above as pointer coarse?*/
 
-@media only screen and (min-width: 900px) and (max-width: 1500px) {.menu {z-index: 10; position: fixed; bottom: 0; left: 0; right: 0; padding-bottom: 2vh; padding-left: 5vw; padding-right: 5vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+@media only screen and (min-width: 900px) and (max-width: 1500px) and (pointer: coarse) {.menu {z-index: 10; position: fixed; bottom: 0; left: 0; right: 0; padding-bottom: 2vh; padding-left: 5vw; padding-right: 5vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1500px) and (pointer: fine) {.menu {z-index: 10; position: fixed; bottom: 0; left: 0; right: 0; padding-bottom: 2vh; margin-left: auto; margin-right: auto; width: 155vh; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1500px) and (pointer: coarse) {.centre-menu {z-index: 10; padding-top: 5vh; position: fixed; bottom: 57%; left: 0; right: 0; padding-bottom: 2vh; display: grid; padding-left: 5vw; padding-right: 5vw; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1500px) and (pointer: fine) {.centre-menu {z-index: 10; position: fixed; top: 42vh; bottom: 40vh; left: 0; right: 0; padding-bottom: 2vh; padding-left: 5vw; padding-right: 5vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+@media only screen and (min-width: 900px) and (max-width: 1500px) and (pointer: fine) {.centre-menu {z-index: 10; position: fixed; top: 42vh; bottom: 40vh; left: 0; right: 0; padding-bottom: 2vh; margin-left: auto; margin-right: auto; display: grid; width: 155vh; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 /*pointer coarse*/
 @media only screen and (min-width: 900px) and (max-width: 1500px) and (pointer: coarse) {.header {position: fixed; z-index: 10; top: 0; left: 0; right: 0; padding-left: 5vw; padding-right: 5vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
-@media only screen and (min-width: 900px) and (max-width: 1500px) and (pointer: fine) {.header {position: fixed; z-index: 10; top: 11vh; left: 0; right: 0; padding-left: 5vw; padding-right: 5vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+@media only screen and (min-width: 900px) and (max-width: 1500px) and (pointer: fine) {.header {position: fixed; z-index: 10; top: 0; left: 0; right: 0; height: 23vh; margin-left: auto; margin-right: auto; width: 155vh; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
+@media only screen and (min-width: 900px) and (max-width: 1500px) and (pointer: coarse) {.header-blur {position: fixed; z-index: 10; top: 0; left: 0; right: 0; margin-left: auto; margin-right: auto; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; align-items: center; justify-items: center;  mask: linear-gradient( black, black, black, black, transparent); -webkit-backdrop-filter: blur(7px); backdrop-filter: blur(7px); transform: translate3d(-58px,0,0); height: 23vmin;}
+}
 /*pointer coarse*/
-@media only screen and (min-width: 900px) and (max-width: 1500px) {.header-blur {position: fixed; z-index: 10; top: 0; left: 0; right: 0; padding-left: 5vw; height: 23vh; padding-right: 5vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;  mask: linear-gradient( black, black, black, black, transparent); -webkit-backdrop-filter: blur(7px); backdrop-filter: blur(7px); transform: translate3d(0,0,0); height: 17vh;}
+@media only screen and (min-width: 900px) and (max-width: 1500px) and (pointer: fine) {.header-blur {position: fixed; z-index: 10; top: 0; left: 0; right: 0; margin: auto; height: 23vh; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; align-items: center; justify-items: center;  mask: linear-gradient( black, black, black, black, transparent); -webkit-backdrop-filter: blur(7px); backdrop-filter: blur(7px); transform: translate3d(-58px,0,0); width: 130vh;}
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1500px) and (pointer: coarse) {.block {text-justify: center; padding-top: 15vh; padding-left: 11vw; padding-right: 11vw; }}
       
-@media only screen and (min-width: 600px) and (max-width: 1500px) and (pointer: fine) {.block {text-justify: center; padding-top: 15vh; padding-left: 11vw; padding-right: 20vw; }}
+@media only screen and (min-width: 900px) and (max-width: 1500px) and (pointer: fine) {.block {padding-top: 20vh; width: 100vh; margin: auto;  transform: translate(-50px,0);}}
       
 
 
@@ -109,10 +125,10 @@
 @media only screen and (min-width: 1500px) {.menu-blur {z-index: 10; position: fixed; bottom: 0; left: 0; right: 0; padding-bottom: 2vh; padding-left: 10vw; padding-right: 10vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
-@media only screen and (min-width: 1500px) {.header {position: fixed; z-index: 10; height: 23vh; top: 0; left: 0; right: 0; padding-left: 14vw; padding-right: 13vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
+@media only screen and (min-width: 1500px) {.header {position: fixed; z-index: 10; width: 155vh; height: 23vh; top: 0; left: 0; right: 0; padding-left: 0; padding-right: 0; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center; margin-left: auto; margin-right: auto;}
 }
 
-@media only screen and (min-width: 1500px) {.header-blur {position: fixed; z-index: 10; top: 0; left: 0; right: 0; padding-left: 14vw; padding-right: 13vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center; mask: linear-gradient(black, black, black, black, transparent); -webkit-backdrop-filter: blur(7px); backdrop-filter: blur(7px); transform: translate3d(0,0,0); height: 23vh;}
+@media only screen and (min-width: 1500px) {.header-blur {position: fixed; z-index: 10; top: 0; left: 0; right: 0; margin: auto; height: 23vh; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; align-items: center; justify-items: center;  mask: linear-gradient( black, black, black, black, transparent); -webkit-backdrop-filter: blur(7px); backdrop-filter: blur(7px); transform: translate3d(-89px,0,0); width: 130vh;}
 }
 
 @media only screen and (min-width: 1500px) {.contactinfo {position: absolute; transform: translate(0%, 100%); margin-right: 17vw; margin-left: 17vw; }}
@@ -125,8 +141,16 @@
 
 @media only screen and (min-width: 420px) {.mountain {width: 24vmin; filter: sepia(100%) saturate(100%); position: absolute; transform: translate(-50%, -50%);}}
 
+@media only screen and (min-width: 420px) {.double-bass-small {width: 10vmin; filter: sepia(100%) saturate(100%);}}
+
+@media only screen and (min-width: 420px) {.about-small {width: 15vmin; filter: sepia(100%) saturate(100%);}}
+
+@media only screen and (min-width: 420px) {.mountain-small {width: 18vmin; filter: sepia(100%) saturate(100%); position: absolute; transform: translate(-50%, -50%);}}
+
 
 @media only screen and (min-width: 420px) {.logo {width: 34vmin; filter: sepia(100%) saturate(100%); position: absolute; transform: translate(-50%, -50%);}}
+
+@media only screen and (min-width: 420px) {.logo-small {width: 29vmin; filter: sepia(100%) saturate(100%); position: absolute; transform: translate(-50%, -50%);}}
 
 @media only screen and (min-width: 420px) {h1 {font-size: 7vmin;}}
 
@@ -147,7 +171,7 @@
             
 @media only screen and (min-width: 600px) {.collagesolo {width: 60%;}}
 
-@media only screen and (min-width: 1500px) {.block {position: absolute; text-justify: center; margin-right: 25vw; margin-left: 19vw; margin-top: 20vh;}}
+@media only screen and (min-width: 1500px) {.block {padding-top: 20vh; width: 100vh; margin: auto;  transform: translate(-50px,0);}}
 
 @media only screen and (min-width: 500px) {.center {
     position: relative;
