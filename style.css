@@ -23,6 +23,8 @@
 /*pointer coarse*/
 @media only screen and (max-width: 420px), (pointer: coarse) {.menu-items {width: 6vmax; filter: sepia(100%) saturate(100%);}}
 
+@media only screen and (max-width: 1500px), (pointer: coarse) {.centreimage {padding-left: 0vw; text-align: center;}}
+
 @media only screen and (max-width: 420px), (pointer: coarse) {.double-bass {width: 11vmax; filter: sepia(100%) saturate(100%); transform: rotate(20deg);}}
 
 @media only screen and (max-width: 420px), (pointer: coarse) {.double-bass-small {width: 7vmax; filter: sepia(100%) saturate(100%); transform: rotate(20deg);}}
@@ -122,6 +124,8 @@
 @media only screen and (min-width: 1500px) {.centre-menu {z-index: 10; position: fixed; top: 42vh; bottom: 40vh; left: 0; right: 0; padding-bottom: 2vh; padding-left: 13vw; padding-right: 13vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
+@media only screen and (min-width: 1500px) {.centreimage {padding-left: 9vw;}
+}
 @media only screen and (min-width: 1500px) {.menu-blur {z-index: 10; position: fixed; bottom: 0; left: 0; right: 0; padding-bottom: 2vh; padding-left: 10vw; padding-right: 10vw; display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}
 }
 
