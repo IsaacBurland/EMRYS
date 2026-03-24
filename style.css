@@ -50,6 +50,10 @@
 @media only screen and (max-width: 420px), (pointer: coarse) {.link-pic {position: absolute; top: 20%; left: 50%; transform: translate(-50%, -50%); max-width: 90vmax; opacity: 0}
             }
 
+@media only screen and (max-width: 420px), (pointer: coarse) {.teacoffee {display: grid; grid-template-columns: 1fr; align-items: center; justify-items: center; column-gap: 3vh; transform: translate(0, -25%);}}
+
+@media only screen and (max-width: 420px), (pointer: coarse) {.walkingtourconcerts {display: grid; grid-template-columns: 3fr 1fr; align-items: center; justify-items: center; column-gap: 3vh; height: auto;}}
+
 @media only screen and (max-width: 600px), (pointer: coarse) {.picgrid{display: grid; grid-template-columns: 1fr; align-items: center; justify-items: center;}}
   
 @media only screen and (max-width: 600px), (pointer: coarse) {.picgridabout {display: grid; grid-template-columns: 1fr 1fr 1fr; align-items: center; justify-items: center;}}
@@ -151,6 +155,10 @@
 
 @media only screen and (min-width: 420px) {.mountain-small {width: 18vmin; filter: sepia(100%) saturate(100%); position: absolute; transform: translate(-50%, -50%);}}
 
+@media only screen and (min-width: 420px) {.teacoffee {display: grid; grid-template-columns: 1fr; align-items: center; justify-items: center; column-gap: 3vh; transform: translate(0, -25%);}}
+
+@media only screen and (min-width: 420px) {.walkingtourconcerts {display: grid; grid-template-columns: 3fr 1fr; align-items: center; justify-items: center; column-gap: 3vh; height: auto;}}
+
 
 @media only screen and (min-width: 420px) {.logo {width: 34vmin; filter: sepia(100%) saturate(100%); position: absolute; transform: translate(-50%, -50%);}}
 
@@ -192,7 +200,7 @@ p {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color
 iframe {width: 80vmin; height: 45vmin}
 
 
-.mailing-list {color: rgb(255, 255, 255); font-weight: bold; font-size: large; filter: sepia(100%) saturate(100%); background-color: black; }
+.mailing-list {color: rgb(255, 255, 255); font-weight: bold; filter: sepia(100%) saturate(100%); background-color: black; }
             
 .hover-effect:hover {cursor: pointer; color: black; background-color: rgb(255, 255, 255); filter: sepia(100%) saturate(100%);}
 
