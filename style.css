@@ -29,27 +29,27 @@
     }
 }
 
-@media only screen and (max-width: 400px) {.triptych
+@media only screen and (max-width: 600px) {.triptych
     {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr flow;
     }
 }
 
-@media only screen and (min-width: 400px) {.triptych
+@media only screen and (min-width: 600px) {.triptych
     {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
-@media only screen and (max-width: 400px) {.triptychpic
+@media only screen and (max-width: 600px) {.triptychpic
     {
     width: 90vmin;
     }
 }
 
-@media only screen and (min-width: 400px) {.triptychpic
+@media only screen and (min-width: 600px) {.triptychpic
     {
     width: 29vmin;
     }
