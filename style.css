@@ -9,6 +9,51 @@
             button {background-color: rgba(0, 128, 0, 0); opacity: 100%;}
 
 
+@media only screen and (max-width: 600px) {.launchpic
+    {
+    width: 90vmin;
+    position: fixed;
+    inset: 0;
+    place-self: center;
+    }
+}
+
+
+
+@media only screen and (min-width: 600px) {.launchpic
+    {
+    width: 90vmin;
+    position: fixed;
+    inset: 0;
+    place-self: center;
+    }
+}
+
+@media only screen and (max-width: 400px) {.triptych
+    {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr flow;
+    }
+}
+
+@media only screen and (min-width: 400px) {.triptych
+    {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 400px) {.triptychpic
+    {
+    width: 90vmin;
+    }
+}
+
+@media only screen and (min-width: 400px) {.triptychpic
+    {
+    width: 29vmin;
+    }
+}
 
 
 u {font-weight: normal; text-decoration-thickness: 0.01em;}
