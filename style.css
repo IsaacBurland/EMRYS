@@ -1081,6 +1081,20 @@ i {font-weight: normal;}
 
 .hoverinvert:hover {filter: invert(100%);}
 
+@media only screen and (max-width: 1500px) {
+    .picblock {
+        width: 90vmin; padding-left: 2vw;
+        
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .picblock {
+        width: 90vmin; padding-left: 0vw;
+        
+    }
+}
+
 @media only screen and (min-width: 1500px) {
     .block-text {
         width: 48vw; margin-left: 26vw; padding-top: 15vh;
