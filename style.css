@@ -55,13 +55,13 @@
 
 @media only screen and (max-width: 600px) {.triptychpic
     {
-    width: 90vw;
+    width: 90%;
     }
 }
 
 @media only screen and (min-width: 600px) {.triptychpic
     {
-    width: 29vw;
+    width: 90%;
     }
 }
 
