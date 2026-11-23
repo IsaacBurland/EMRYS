@@ -29,6 +29,16 @@
     }
 }
 
+.credit {
+    visibility: hidden;
+}
+
+.launchpic:hover .credit 
+    {
+        visibility: visible;
+    }
+
+
 @media only screen and (max-width: 600px) {.triptych
     {
     display: grid;
@@ -45,13 +55,13 @@
 
 @media only screen and (max-width: 600px) {.triptychpic
     {
-    width: 90vmin;
+    width: 90vw;
     }
 }
 
 @media only screen and (min-width: 600px) {.triptychpic
     {
-    width: 29vmin;
+    width: 29vw;
     }
 }
 
@@ -1084,6 +1094,8 @@ i {font-weight: normal;}
 @media only screen and (max-width: 1500px) {
     .picblock {
         width: 90vmin; padding-left: 2vw;
+        display: inline-block;
+        margin: 0 auto;
         
     }
 }
@@ -1331,6 +1343,8 @@ hr {color: white; border-top: none;}
 
 
 /* Show the dropdown menu on hover */
+
+
 
 
 
