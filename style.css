@@ -9,26 +9,30 @@
             button {background-color: rgba(0, 128, 0, 0); opacity: 100%;}
 
 
-@media only screen and (max-width: 600px) {.launchpic
+.launchpic
     {
     width: 90vmin;
-    position: fixed;
+    display: grid;
     inset: 0;
-    place-self: center;
+    position: fixed;
+    margin: 0 auto;
+    align-content: center;
     }
-}
 
 
 
+/*
 @media only screen and (min-width: 600px) {.launchpic
     {
     width: 90vmin;
-    position: fixed;
+    display: grid;
     inset: 0;
-    place-self: center;
+    
+    align-self: center;
+    justify-self: center;
     }
 }
-
+*/
 .credit {
     visibility: hidden;
 }
